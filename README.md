@@ -28,7 +28,7 @@ If you use this code for your research, please consider citing the original pape
 
 ## License
 
-This code is provided under the [MIT License](LICENS).
+This code is provided under the [MIT License](LICENSE).
 
 
 
