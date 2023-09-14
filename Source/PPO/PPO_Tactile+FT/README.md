@@ -1,4 +1,4 @@
-# PPO Algorithm with Force/Torque Perception Modality 
+# PPO algorithm with tactile and force/torque fusion perception
 
 Usage
 1. Train
@@ -10,7 +10,6 @@ Uncomment `train(*kwargs)`, then run
 
 2. Evaluate
 
-`cd ..`
 Comment out train(**kwargs) in the main() function of env.py
 
 Uncomment `evaluate()`, then run
