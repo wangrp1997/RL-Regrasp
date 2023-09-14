@@ -1,4 +1,4 @@
-# PPO Algorithm with Force/Torque Modality Perception
+# PPO Algorithm with Force/Torque Perception Modality 
 
 Usage
 1. Train
