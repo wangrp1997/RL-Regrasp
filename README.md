@@ -1,4 +1,4 @@
-# RL-Regrasp
+# RL-CoM-Regrasp
 # Code for "Center-of-Mass-Based Object Regrasping: A Reinforcement Learning Approach and the Effects of Perception Modality"
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
