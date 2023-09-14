@@ -10,7 +10,6 @@ Uncomment `train(*kwargs)`, then run
 
 2. Evaluate
 
-`cd ..`
 Comment out train(**kwargs) in the main() function of env.py
 
 Uncomment `evaluate()`, then run
