@@ -5,11 +5,13 @@ Usage
 
 Uncomment env_test(**kwargs)
 `python env.py` 
-3. Train
+
+2. Train
 
 `cd model_train`
 then run:
 `python main-LSTM.py`
+
 3. Evaluate
 
 `cd ..`
