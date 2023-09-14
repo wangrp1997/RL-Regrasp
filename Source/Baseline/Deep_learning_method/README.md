@@ -3,7 +3,7 @@
 Usage
 1. Data Collection
 
-Uncomment env_test(**kwargs)
+Uncomment env_test(**kwargs), then run 
 `python env.py` 
 
 2. Train
