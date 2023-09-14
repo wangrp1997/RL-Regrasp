@@ -18,5 +18,6 @@ then run:
 
 `cd ..`
 Comment out env_test(**kwargs) in the main() function of env.py
+
 Uncomment `evaluate()`, then run
 `python env.py` 
