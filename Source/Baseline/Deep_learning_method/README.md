@@ -1,8 +1,15 @@
-# ur5pybullet
-UR5 sim in pybullet, with control via xyz and ori of the head, or individual motor control. Uses elements of a bunch of other sims and the kuka default example but has a very simple gripper / images rendered through GPU and array form motor actions so its a fair bit faster and thus works really well in VR.
+# Deep learning method
 
 Usage
-
-xyz/ori: python arm.py --mode xyz
-
-motors: python arm.py --mode motors
+1. Data Collection
+Uncomment env_test(**kwargs)
+`python env.py` 
+3. Train
+`cd model_train`
+then run:
+`python main-LSTM.py`
+5. Evaluate
+`cd ..`
+Comment out env_test(**kwargs)
+then run
+`python env.py` 
