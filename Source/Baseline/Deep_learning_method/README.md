@@ -2,8 +2,8 @@
 
 Usage
 1. Data Collection
-
-Uncomment env_test(**kwargs), then run 
+Comment out `evaluate()` in the main() function of env.py
+Uncomment `env_test(**kwargs)`, then run 
 `python env.py` 
 
 2. Train
@@ -15,6 +15,6 @@ then run:
 3. Evaluate
 
 `cd ..`
-Comment out env_test(**kwargs)
-then run
+Comment out env_test(**kwargs) in the main() function of env.py
+Uncomment `evaluate()`, then run
 `python env.py` 
