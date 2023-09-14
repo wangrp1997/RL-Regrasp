@@ -1,8 +1,17 @@
-# ur5pybullet
-UR5 sim in pybullet, with control via xyz and ori of the head, or individual motor control. Uses elements of a bunch of other sims and the kuka default example but has a very simple gripper / images rendered through GPU and array form motor actions so its a fair bit faster and thus works really well in VR.
+# PPO Algorithm with Force/Torque Modality Perception
 
 Usage
+1. Train
+   
+Comment out `evaluate()` in the main() function of env.py
 
-xyz/ori: python arm.py --mode xyz
+Uncomment `train(*kwargs)`, then run 
+`python env.py` 
 
-motors: python arm.py --mode motors
+2. Evaluate
+
+`cd ..`
+Comment out train(**kwargs) in the main() function of env.py
+
+Uncomment `evaluate()`, then run
+`python env.py` 
